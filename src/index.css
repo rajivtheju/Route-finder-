@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@import '~leaflet/dist/leaflet.css';
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background-color:whitesmoke;
+  padding: 10px;
+  overflow-y: auto;
+  
+  background-clip: padding-box;
+}
+input {
+  height: 20px;
+  width: 300px;
+  margin: 5px;
+  padding: 3px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* App.css or a dedicated CSS file */
+.ReactModal__Overlay {
+  z-index: 1000; /* Ensure this is higher than the map's z-index */
+}
+
+.ReactModal__Content {
+  z-index: 1001; /* Ensure this is higher than the map's z-index */
+}
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
